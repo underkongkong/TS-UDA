@@ -1,5 +1,6 @@
-from .MMASleepNet_8_EEGEOGEMGplus_encoder import MMASleepNet_eegeogemg_plus_encoder
-from .Encoder import base_Model
-from .network import Classifier
-from .adamatch import Adamatch
-from .MMASleepNet_8_EEGplus_encoder import MMASleepNet_eeg_plus_encoder
+import imp
+from .network import Classifier,Encoder
+from .damatch import Damatch
+from .encoder_base import base_Model
+from .encoder_MMASleepNet import MMASleepNet
+from .encoder_MMASleepNet_EEG import MMASleepNet_EEG

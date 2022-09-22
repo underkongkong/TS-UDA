@@ -9,11 +9,10 @@ def DataTransform(sample,augment_type):#, config):
     # weak_aug = scaling(sample, config.augmentation.jitter_scale_ratio)
     # strong_aug = jitter(permutation(sample, max_segments=config.augmentation.max_seg), config.augmentation.jitter_ratio)
     if augment_type=='weak':
-        weak_aug = scaling(sample)
-        return weak_aug
+        aug = scaling(sample)
     elif augment_type=='strong':
-        strong_aug = jitter(permutation(sample))
-        return strong_aug
+        aug = jitter(permutation(sample))
+    return aug
     # return weak_aug, strong_aug
 
 
