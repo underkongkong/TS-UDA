@@ -1,0 +1,2024 @@
+/home/lyy/UDA-sleep/code/dataset/augmentations.py:49: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  warp = np.concatenate(np.random.permutation(splits)).ravel()
+<__array_function__ internals>:5: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+source_files_len: 153
+target_files_len: 10
+X_train.shape (116418, 2, 3000)
+X_train.shape (116418, 2, 3000)
+X_train.shape (116418, 2, 3000)
+X_train.shape (8589, 2, 3000)
+X_train.shape (8589, 2, 3000)
+X_train.shape (8589, 2, 3000)
+classifier Classifier(
+  (fc): Sequential(
+    (0): Linear(in_features=128, out_features=5, bias=True)
+    (1): Softmax(dim=1)
+  )
+)
+source [0 0 0 ... 0 0 0] [2 2 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+[Epoch 1/500] source_loss:0.000549 loss: 0.108023; accuracy source: 0.386676; accuracy target: 0.000000; val accuracy: 0.000000;
+source [0 0 0 ... 0 0 0] [2 2 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+[Epoch 2/500] source_loss:0.000549 loss: 0.107297; accuracy source: 0.386676; accuracy target: 0.000000; val accuracy: 0.000000;
+source [0 0 0 ... 0 0 0] [2 2 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+[Epoch 3/500] source_loss:0.000549 loss: 0.107282; accuracy source: 0.386676; accuracy target: 0.000000; val accuracy: 0.000000;
+source [0 0 0 ... 0 0 0] [2 2 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+[Epoch 4/500] source_loss:0.000556 loss: 0.107309; accuracy source: 0.386676; accuracy target: 0.000000; val accuracy: 0.000000;
+source [0 0 0 ... 0 0 0] [2 2 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [2 2 2 ... 2 4 2]
+[Epoch 5/500] source_loss:0.000558 loss: 0.105749; accuracy source: 0.417238; accuracy target: 0.000000; val accuracy: 0.000000;
+source [0 0 0 ... 0 0 0] [2 2 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [3 3 3 ... 3 4 3]
+[Epoch 6/500] source_loss:0.000559 loss: 0.103036; accuracy source: 0.430973; accuracy target: 0.000000; val accuracy: 0.000000;
+source [0 0 0 ... 0 0 0] [4 4 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 4 3]
+[Epoch 7/500] source_loss:0.000559 loss: 0.101185; accuracy source: 0.427030; accuracy target: 0.008732; val accuracy: 0.081034;
+source [0 0 0 ... 0 0 0] [4 4 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 4 3]
+[Epoch 8/500] source_loss:0.000553 loss: 0.100725; accuracy source: 0.431918; accuracy target: 0.054488; val accuracy: 0.199674;
+source [0 0 0 ... 0 0 0] [4 4 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 3]
+[Epoch 9/500] source_loss:0.000549 loss: 0.100103; accuracy source: 0.436324; accuracy target: 0.062056; val accuracy: 0.191640;
+source [0 0 0 ... 0 0 0] [4 4 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [0 2 2 ... 2 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 0 0 3]
+[Epoch 10/500] source_loss:0.000554 loss: 0.099601; accuracy source: 0.444055; accuracy target: 0.212830; val accuracy: 0.330888;
+source [0 0 0 ... 0 0 0] [2 2 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 0 0 3]
+[Epoch 11/500] source_loss:0.000555 loss: 0.099405; accuracy source: 0.444759; accuracy target: 0.079986; val accuracy: 0.465828;
+source [0 0 0 ... 0 0 0] [0 4 2 ... 2 4 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 12/500] source_loss:0.000557 loss: 0.098793; accuracy source: 0.447706; accuracy target: 0.252299; val accuracy: 0.431599;
+source [0 0 0 ... 0 0 0] [2 2 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 0 0 0]
+[Epoch 13/500] source_loss:0.000561 loss: 0.098564; accuracy source: 0.449939; accuracy target: 0.070672; val accuracy: 0.434393;
+source [0 0 0 ... 0 0 0] [4 4 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 0 0 0]
+[Epoch 14/500] source_loss:0.000566 loss: 0.097916; accuracy source: 0.465839; accuracy target: 0.093142; val accuracy: 0.567121;
+source [0 0 0 ... 0 0 0] [0 0 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 2]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 0 3 0]
+[Epoch 15/500] source_loss:0.000569 loss: 0.097497; accuracy source: 0.447165; accuracy target: 0.104902; val accuracy: 0.456747;
+source [0 0 0 ... 0 0 0] [0 0 2 ... 2 2 2]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 0 0 0]
+[Epoch 16/500] source_loss:0.000565 loss: 0.096516; accuracy source: 0.451107; accuracy target: 0.200023; val accuracy: 0.594365;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 0 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 0 3 0]
+[Epoch 17/500] source_loss:0.000562 loss: 0.095645; accuracy source: 0.597846; accuracy target: 0.168355; val accuracy: 0.355920;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 2 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 0 3 0]
+[Epoch 18/500] source_loss:0.000554 loss: 0.092968; accuracy source: 0.631483; accuracy target: 0.153219; val accuracy: 0.346490;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [0 0 0 ... 0 0 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 0 3 0]
+[Epoch 19/500] source_loss:0.000564 loss: 0.091827; accuracy source: 0.612010; accuracy target: 0.783444; val accuracy: 0.539062;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [0 0 0 ... 0 0 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 0 3 0]
+[Epoch 20/500] source_loss:0.000566 loss: 0.091137; accuracy source: 0.608540; accuracy target: 0.754803; val accuracy: 0.528932;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 0 3 0]
+[Epoch 21/500] source_loss:0.000557 loss: 0.090253; accuracy source: 0.646988; accuracy target: 0.420305; val accuracy: 0.344860;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 0 4 0]
+[Epoch 22/500] source_loss:0.000554 loss: 0.089853; accuracy source: 0.651042; accuracy target: 0.436256; val accuracy: 0.347654;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 0 4 0]
+[Epoch 23/500] source_loss:0.000550 loss: 0.089674; accuracy source: 0.648697; accuracy target: 0.380952; val accuracy: 0.347887;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 4 4 0]
+[Epoch 24/500] source_loss:0.000556 loss: 0.089590; accuracy source: 0.651987; accuracy target: 0.422401; val accuracy: 0.285365;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 0 4 0]
+[Epoch 25/500] source_loss:0.000551 loss: 0.089430; accuracy source: 0.653894; accuracy target: 0.336943; val accuracy: 0.372220;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 4 4 0]
+[Epoch 26/500] source_loss:0.000553 loss: 0.089239; accuracy source: 0.653567; accuracy target: 0.363372; val accuracy: 0.326813;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 4 4 0]
+[Epoch 27/500] source_loss:0.000554 loss: 0.089029; accuracy source: 0.645175; accuracy target: 0.331354; val accuracy: 0.220515;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 4 4 0]
+[Epoch 28/500] source_loss:0.000557 loss: 0.088177; accuracy source: 0.648499; accuracy target: 0.358132; val accuracy: 0.357783;
+source [0 0 0 ... 0 0 0] [4 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 4 4 0]
+[Epoch 29/500] source_loss:0.000551 loss: 0.087112; accuracy source: 0.643895; accuracy target: 0.356503; val accuracy: 0.361276;
+source [0 0 0 ... 0 0 0] [4 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 4 0]
+[Epoch 30/500] source_loss:0.000554 loss: 0.086575; accuracy source: 0.641095; accuracy target: 0.315753; val accuracy: 0.360228;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 4 0]
+[Epoch 31/500] source_loss:0.000552 loss: 0.086154; accuracy source: 0.648929; accuracy target: 0.302480; val accuracy: 0.372104;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 4 0]
+[Epoch 32/500] source_loss:0.000550 loss: 0.085783; accuracy source: 0.652914; accuracy target: 0.351496; val accuracy: 0.348003;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 4 0]
+[Epoch 33/500] source_loss:0.000553 loss: 0.085761; accuracy source: 0.651678; accuracy target: 0.294563; val accuracy: 0.345675;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 4 0]
+[Epoch 34/500] source_loss:0.000552 loss: 0.085413; accuracy source: 0.649015; accuracy target: 0.247526; val accuracy: 0.365584;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 35/500] source_loss:0.000550 loss: 0.085217; accuracy source: 0.650655; accuracy target: 0.225754; val accuracy: 0.403539;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 4 0]
+[Epoch 36/500] source_loss:0.000552 loss: 0.085094; accuracy source: 0.660156; accuracy target: 0.314821; val accuracy: 0.416114;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 4 0]
+[Epoch 37/500] source_loss:0.000558 loss: 0.085034; accuracy source: 0.656548; accuracy target: 0.269647; val accuracy: 0.399814;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 38/500] source_loss:0.000552 loss: 0.084847; accuracy source: 0.653937; accuracy target: 0.281523; val accuracy: 0.401909;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 39/500] source_loss:0.000551 loss: 0.084844; accuracy source: 0.656557; accuracy target: 0.249622; val accuracy: 0.411224;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 40/500] source_loss:0.000549 loss: 0.084766; accuracy source: 0.653722; accuracy target: 0.244615; val accuracy: 0.478752;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 2 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 41/500] source_loss:0.000554 loss: 0.084661; accuracy source: 0.661023; accuracy target: 0.282221; val accuracy: 0.475608;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 42/500] source_loss:0.000553 loss: 0.084685; accuracy source: 0.661289; accuracy target: 0.283036; val accuracy: 0.446967;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 43/500] source_loss:0.000557 loss: 0.084635; accuracy source: 0.662002; accuracy target: 0.288625; val accuracy: 0.427058;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 44/500] source_loss:0.000549 loss: 0.084592; accuracy source: 0.665309; accuracy target: 0.312609; val accuracy: 0.423914;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 45/500] source_loss:0.000550 loss: 0.084507; accuracy source: 0.665249; accuracy target: 0.315986; val accuracy: 0.427989;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 46/500] source_loss:0.000550 loss: 0.084570; accuracy source: 0.663738; accuracy target: 0.302596; val accuracy: 0.421469;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 4 0]
+[Epoch 47/500] source_loss:0.000556 loss: 0.084532; accuracy source: 0.663111; accuracy target: 0.306206; val accuracy: 0.391082;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 48/500] source_loss:0.000552 loss: 0.084529; accuracy source: 0.666701; accuracy target: 0.326930; val accuracy: 0.420654;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 49/500] source_loss:0.000555 loss: 0.084461; accuracy source: 0.665026; accuracy target: 0.303993; val accuracy: 0.407614;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 4 0]
+[Epoch 50/500] source_loss:0.000553 loss: 0.084446; accuracy source: 0.665593; accuracy target: 0.310048; val accuracy: 0.388287;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 51/500] source_loss:0.000552 loss: 0.084467; accuracy source: 0.666976; accuracy target: 0.317150; val accuracy: 0.413785;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 52/500] source_loss:0.000551 loss: 0.084421; accuracy source: 0.667380; accuracy target: 0.324718; val accuracy: 0.414833;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 53/500] source_loss:0.000553 loss: 0.084425; accuracy source: 0.666933; accuracy target: 0.303411; val accuracy: 0.410059;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 54/500] source_loss:0.000551 loss: 0.084434; accuracy source: 0.668771; accuracy target: 0.327861; val accuracy: 0.437769;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 55/500] source_loss:0.000554 loss: 0.084395; accuracy source: 0.666005; accuracy target: 0.303411; val accuracy: 0.411224;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 56/500] source_loss:0.000551 loss: 0.084446; accuracy source: 0.667654; accuracy target: 0.314472; val accuracy: 0.436838;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 57/500] source_loss:0.000555 loss: 0.084371; accuracy source: 0.666091; accuracy target: 0.306788; val accuracy: 0.408197;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 58/500] source_loss:0.000550 loss: 0.084332; accuracy source: 0.669604; accuracy target: 0.343113; val accuracy: 0.433461;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 59/500] source_loss:0.000550 loss: 0.084292; accuracy source: 0.668204; accuracy target: 0.308301; val accuracy: 0.418326;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 60/500] source_loss:0.000550 loss: 0.084347; accuracy source: 0.669287; accuracy target: 0.317848; val accuracy: 0.432530;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 61/500] source_loss:0.000552 loss: 0.084366; accuracy source: 0.668728; accuracy target: 0.310048; val accuracy: 0.435324;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 62/500] source_loss:0.000552 loss: 0.084443; accuracy source: 0.668763; accuracy target: 0.304343; val accuracy: 0.426592;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 63/500] source_loss:0.000549 loss: 0.084341; accuracy source: 0.668367; accuracy target: 0.305740; val accuracy: 0.434276;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 64/500] source_loss:0.000549 loss: 0.084389; accuracy source: 0.668290; accuracy target: 0.309000; val accuracy: 0.443474;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 65/500] source_loss:0.000554 loss: 0.084288; accuracy source: 0.667431; accuracy target: 0.293748; val accuracy: 0.440331;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 66/500] source_loss:0.000550 loss: 0.084292; accuracy source: 0.665885; accuracy target: 0.290721; val accuracy: 0.445104;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 67/500] source_loss:0.000551 loss: 0.084226; accuracy source: 0.670111; accuracy target: 0.325882; val accuracy: 0.464315;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 68/500] source_loss:0.000550 loss: 0.084264; accuracy source: 0.670034; accuracy target: 0.320759; val accuracy: 0.457795;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 69/500] source_loss:0.000551 loss: 0.084317; accuracy source: 0.668539; accuracy target: 0.312027; val accuracy: 0.460240;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 70/500] source_loss:0.000550 loss: 0.084314; accuracy source: 0.667302; accuracy target: 0.299453; val accuracy: 0.454651;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 71/500] source_loss:0.000551 loss: 0.084307; accuracy source: 0.669364; accuracy target: 0.322622; val accuracy: 0.468390;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 72/500] source_loss:0.000550 loss: 0.084269; accuracy source: 0.669819; accuracy target: 0.322622; val accuracy: 0.458377;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 73/500] source_loss:0.000549 loss: 0.084312; accuracy source: 0.669304; accuracy target: 0.307952; val accuracy: 0.445686;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 74/500] source_loss:0.000549 loss: 0.084301; accuracy source: 0.669587; accuracy target: 0.321341; val accuracy: 0.460473;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 75/500] source_loss:0.000554 loss: 0.084296; accuracy source: 0.670506; accuracy target: 0.332635; val accuracy: 0.469205;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 76/500] source_loss:0.000550 loss: 0.084221; accuracy source: 0.670429; accuracy target: 0.331238; val accuracy: 0.467924;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 77/500] source_loss:0.000551 loss: 0.084289; accuracy source: 0.668917; accuracy target: 0.312493; val accuracy: 0.456165;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 78/500] source_loss:0.000550 loss: 0.084253; accuracy source: 0.669012; accuracy target: 0.311678; val accuracy: 0.453487;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 79/500] source_loss:0.000552 loss: 0.084201; accuracy source: 0.670652; accuracy target: 0.327978; val accuracy: 0.467808;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 80/500] source_loss:0.000552 loss: 0.084426; accuracy source: 0.669561; accuracy target: 0.319013; val accuracy: 0.461404;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 81/500] source_loss:0.000552 loss: 0.084327; accuracy source: 0.668556; accuracy target: 0.309582; val accuracy: 0.451275;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 82/500] source_loss:0.000549 loss: 0.084318; accuracy source: 0.666478; accuracy target: 0.284201; val accuracy: 0.430667;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 83/500] source_loss:0.000554 loss: 0.084217; accuracy source: 0.668788; accuracy target: 0.309000; val accuracy: 0.447666;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 84/500] source_loss:0.000550 loss: 0.084267; accuracy source: 0.668118; accuracy target: 0.304925; val accuracy: 0.443358;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 85/500] source_loss:0.000550 loss: 0.084297; accuracy source: 0.670601; accuracy target: 0.330073; val accuracy: 0.458261;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 86/500] source_loss:0.000551 loss: 0.084303; accuracy source: 0.669914; accuracy target: 0.318547; val accuracy: 0.454418;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 87/500] source_loss:0.000550 loss: 0.084260; accuracy source: 0.668290; accuracy target: 0.301898; val accuracy: 0.446152;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 88/500] source_loss:0.000549 loss: 0.084204; accuracy source: 0.666194; accuracy target: 0.289324; val accuracy: 0.436489;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 89/500] source_loss:0.000551 loss: 0.084269; accuracy source: 0.670146; accuracy target: 0.328094; val accuracy: 0.451624;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 90/500] source_loss:0.000547 loss: 0.084363; accuracy source: 0.668084; accuracy target: 0.301083; val accuracy: 0.442077;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 91/500] source_loss:0.000549 loss: 0.084345; accuracy source: 0.668969; accuracy target: 0.308418; val accuracy: 0.454186;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 92/500] source_loss:0.000549 loss: 0.084389; accuracy source: 0.668359; accuracy target: 0.303528; val accuracy: 0.437536;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 93/500] source_loss:0.000548 loss: 0.084308; accuracy source: 0.670309; accuracy target: 0.326581; val accuracy: 0.462685;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 94/500] source_loss:0.000550 loss: 0.084276; accuracy source: 0.668531; accuracy target: 0.304459; val accuracy: 0.447433;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 95/500] source_loss:0.000549 loss: 0.084409; accuracy source: 0.668445; accuracy target: 0.301665; val accuracy: 0.449296;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 96/500] source_loss:0.000552 loss: 0.084325; accuracy source: 0.669811; accuracy target: 0.319129; val accuracy: 0.465013;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 97/500] source_loss:0.000557 loss: 0.084527; accuracy source: 0.668737; accuracy target: 0.311445; val accuracy: 0.450227;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 98/500] source_loss:0.000550 loss: 0.084341; accuracy source: 0.667689; accuracy target: 0.294214; val accuracy: 0.444173;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 99/500] source_loss:0.000550 loss: 0.084330; accuracy source: 0.670128; accuracy target: 0.320643; val accuracy: 0.462568;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 100/500] source_loss:0.000551 loss: 0.084352; accuracy source: 0.669312; accuracy target: 0.312027; val accuracy: 0.443591;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 101/500] source_loss:0.000549 loss: 0.084338; accuracy source: 0.670661; accuracy target: 0.338573; val accuracy: 0.468623;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 102/500] source_loss:0.000553 loss: 0.084418; accuracy source: 0.668659; accuracy target: 0.303178; val accuracy: 0.448597;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 103/500] source_loss:0.000548 loss: 0.084316; accuracy source: 0.667869; accuracy target: 0.295261; val accuracy: 0.449063;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 104/500] source_loss:0.000552 loss: 0.084383; accuracy source: 0.670532; accuracy target: 0.323321; val accuracy: 0.461404;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 105/500] source_loss:0.000548 loss: 0.084349; accuracy source: 0.668247; accuracy target: 0.305158; val accuracy: 0.439283;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 106/500] source_loss:0.000549 loss: 0.084386; accuracy source: 0.668840; accuracy target: 0.308651; val accuracy: 0.441961;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 107/500] source_loss:0.000551 loss: 0.084314; accuracy source: 0.667113; accuracy target: 0.290721; val accuracy: 0.433927;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 108/500] source_loss:0.000550 loss: 0.084383; accuracy source: 0.669656; accuracy target: 0.315171; val accuracy: 0.452905;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 109/500] source_loss:0.000549 loss: 0.084421; accuracy source: 0.669553; accuracy target: 0.317499; val accuracy: 0.459192;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 110/500] source_loss:0.000553 loss: 0.084460; accuracy source: 0.667861; accuracy target: 0.302363; val accuracy: 0.450227;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 111/500] source_loss:0.000550 loss: 0.084417; accuracy source: 0.670060; accuracy target: 0.326930; val accuracy: 0.459891;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 112/500] source_loss:0.000552 loss: 0.084416; accuracy source: 0.668771; accuracy target: 0.306788; val accuracy: 0.457911;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 113/500] source_loss:0.000549 loss: 0.084343; accuracy source: 0.668900; accuracy target: 0.307021; val accuracy: 0.455466;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 114/500] source_loss:0.000551 loss: 0.084453; accuracy source: 0.669321; accuracy target: 0.313191; val accuracy: 0.441728;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 115/500] source_loss:0.000551 loss: 0.084560; accuracy source: 0.668797; accuracy target: 0.311561; val accuracy: 0.461986;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 116/500] source_loss:0.000555 loss: 0.084464; accuracy source: 0.668969; accuracy target: 0.301898; val accuracy: 0.445570;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 117/500] source_loss:0.000549 loss: 0.084375; accuracy source: 0.668591; accuracy target: 0.309000; val accuracy: 0.455350;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 118/500] source_loss:0.000550 loss: 0.084380; accuracy source: 0.669510; accuracy target: 0.312609; val accuracy: 0.453603;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 119/500] source_loss:0.000551 loss: 0.084489; accuracy source: 0.670609; accuracy target: 0.323670; val accuracy: 0.449063;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 120/500] source_loss:0.000550 loss: 0.084405; accuracy source: 0.667603; accuracy target: 0.296775; val accuracy: 0.449645;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 121/500] source_loss:0.000549 loss: 0.084585; accuracy source: 0.668273; accuracy target: 0.302480; val accuracy: 0.451508;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 122/500] source_loss:0.000550 loss: 0.084418; accuracy source: 0.667783; accuracy target: 0.296309; val accuracy: 0.451275;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 123/500] source_loss:0.000550 loss: 0.084496; accuracy source: 0.669579; accuracy target: 0.310630; val accuracy: 0.454302;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 124/500] source_loss:0.000549 loss: 0.084428; accuracy source: 0.669364; accuracy target: 0.314821; val accuracy: 0.459891;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 125/500] source_loss:0.000549 loss: 0.084433; accuracy source: 0.670360; accuracy target: 0.326348; val accuracy: 0.468041;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 126/500] source_loss:0.000549 loss: 0.084446; accuracy source: 0.668651; accuracy target: 0.300617; val accuracy: 0.433811;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 127/500] source_loss:0.000552 loss: 0.084435; accuracy source: 0.669098; accuracy target: 0.310164; val accuracy: 0.461986;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 128/500] source_loss:0.000552 loss: 0.084553; accuracy source: 0.668264; accuracy target: 0.303062; val accuracy: 0.451973;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 129/500] source_loss:0.000551 loss: 0.084489; accuracy source: 0.669390; accuracy target: 0.316102; val accuracy: 0.447782;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 130/500] source_loss:0.000550 loss: 0.084506; accuracy source: 0.669914; accuracy target: 0.314938; val accuracy: 0.457213;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 131/500] source_loss:0.000549 loss: 0.084464; accuracy source: 0.667277; accuracy target: 0.298987; val accuracy: 0.448597;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 132/500] source_loss:0.000550 loss: 0.084451; accuracy source: 0.670042; accuracy target: 0.321923; val accuracy: 0.464315;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 133/500] source_loss:0.000548 loss: 0.084519; accuracy source: 0.668230; accuracy target: 0.303761; val accuracy: 0.448830;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 134/500] source_loss:0.000554 loss: 0.084482; accuracy source: 0.669347; accuracy target: 0.310164; val accuracy: 0.456281;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 135/500] source_loss:0.000558 loss: 0.084506; accuracy source: 0.668161; accuracy target: 0.302946; val accuracy: 0.452206;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 136/500] source_loss:0.000549 loss: 0.084493; accuracy source: 0.669776; accuracy target: 0.320526; val accuracy: 0.467458;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 137/500] source_loss:0.000551 loss: 0.084585; accuracy source: 0.669338; accuracy target: 0.312842; val accuracy: 0.455583;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 138/500] source_loss:0.000552 loss: 0.084569; accuracy source: 0.669089; accuracy target: 0.304808; val accuracy: 0.453371;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 139/500] source_loss:0.000551 loss: 0.084614; accuracy source: 0.669183; accuracy target: 0.314356; val accuracy: 0.456747;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 140/500] source_loss:0.000551 loss: 0.084582; accuracy source: 0.668625; accuracy target: 0.312493; val accuracy: 0.456863;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 141/500] source_loss:0.000548 loss: 0.084564; accuracy source: 0.667594; accuracy target: 0.298289; val accuracy: 0.439981;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 142/500] source_loss:0.000550 loss: 0.084537; accuracy source: 0.669415; accuracy target: 0.310281; val accuracy: 0.456514;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 143/500] source_loss:0.000550 loss: 0.084612; accuracy source: 0.670446; accuracy target: 0.328327; val accuracy: 0.459308;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 144/500] source_loss:0.000552 loss: 0.084424; accuracy source: 0.667268; accuracy target: 0.302131; val accuracy: 0.444638;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 145/500] source_loss:0.000549 loss: 0.084558; accuracy source: 0.668831; accuracy target: 0.305158; val accuracy: 0.438235;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 146/500] source_loss:0.000553 loss: 0.084572; accuracy source: 0.668075; accuracy target: 0.293399; val accuracy: 0.448946;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 147/500] source_loss:0.000553 loss: 0.084652; accuracy source: 0.668428; accuracy target: 0.300966; val accuracy: 0.440913;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 148/500] source_loss:0.000552 loss: 0.084564; accuracy source: 0.671769; accuracy target: 0.344394; val accuracy: 0.469903;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 149/500] source_loss:0.000548 loss: 0.084545; accuracy source: 0.670051; accuracy target: 0.322971; val accuracy: 0.450926;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 150/500] source_loss:0.000549 loss: 0.084631; accuracy source: 0.668634; accuracy target: 0.309698; val accuracy: 0.453953;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 151/500] source_loss:0.000549 loss: 0.084683; accuracy source: 0.669321; accuracy target: 0.313890; val accuracy: 0.455117;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 152/500] source_loss:0.000553 loss: 0.084653; accuracy source: 0.669639; accuracy target: 0.314821; val accuracy: 0.468390;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 153/500] source_loss:0.000550 loss: 0.084610; accuracy source: 0.670627; accuracy target: 0.328211; val accuracy: 0.462452;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 154/500] source_loss:0.000555 loss: 0.084607; accuracy source: 0.670128; accuracy target: 0.332169; val accuracy: 0.474095;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 155/500] source_loss:0.000548 loss: 0.084646; accuracy source: 0.669991; accuracy target: 0.320061; val accuracy: 0.464198;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 156/500] source_loss:0.000548 loss: 0.084646; accuracy source: 0.668711; accuracy target: 0.306322; val accuracy: 0.456165;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 157/500] source_loss:0.000554 loss: 0.084555; accuracy source: 0.667182; accuracy target: 0.297008; val accuracy: 0.445919;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 158/500] source_loss:0.000549 loss: 0.084631; accuracy source: 0.669931; accuracy target: 0.318780; val accuracy: 0.458028;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 159/500] source_loss:0.000549 loss: 0.084567; accuracy source: 0.669707; accuracy target: 0.313541; val accuracy: 0.451391;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 160/500] source_loss:0.000551 loss: 0.084611; accuracy source: 0.667328; accuracy target: 0.288043; val accuracy: 0.428921;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 161/500] source_loss:0.000549 loss: 0.084667; accuracy source: 0.671151; accuracy target: 0.338573; val accuracy: 0.477588;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 162/500] source_loss:0.000550 loss: 0.084740; accuracy source: 0.667972; accuracy target: 0.299686; val accuracy: 0.440913;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 163/500] source_loss:0.000553 loss: 0.084593; accuracy source: 0.670103; accuracy target: 0.326697; val accuracy: 0.466527;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 164/500] source_loss:0.000552 loss: 0.084660; accuracy source: 0.669175; accuracy target: 0.313424; val accuracy: 0.453603;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 165/500] source_loss:0.000550 loss: 0.084670; accuracy source: 0.669218; accuracy target: 0.315986; val accuracy: 0.465828;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 166/500] source_loss:0.000550 loss: 0.084712; accuracy source: 0.668410; accuracy target: 0.308534; val accuracy: 0.446152;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 167/500] source_loss:0.000555 loss: 0.084712; accuracy source: 0.668634; accuracy target: 0.308418; val accuracy: 0.449994;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 168/500] source_loss:0.000550 loss: 0.084669; accuracy source: 0.669252; accuracy target: 0.319362; val accuracy: 0.467109;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 169/500] source_loss:0.000549 loss: 0.084798; accuracy source: 0.668891; accuracy target: 0.310164; val accuracy: 0.468856;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 170/500] source_loss:0.000552 loss: 0.084678; accuracy source: 0.669158; accuracy target: 0.307603; val accuracy: 0.447549;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 171/500] source_loss:0.000549 loss: 0.084670; accuracy source: 0.666942; accuracy target: 0.292001; val accuracy: 0.439632;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 172/500] source_loss:0.000548 loss: 0.084705; accuracy source: 0.669441; accuracy target: 0.315636; val accuracy: 0.443241;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 173/500] source_loss:0.000553 loss: 0.084745; accuracy source: 0.668866; accuracy target: 0.307486; val accuracy: 0.447316;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 174/500] source_loss:0.000549 loss: 0.084728; accuracy source: 0.668170; accuracy target: 0.302946; val accuracy: 0.453487;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 175/500] source_loss:0.000550 loss: 0.084772; accuracy source: 0.669948; accuracy target: 0.318547; val accuracy: 0.457446;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 176/500] source_loss:0.000550 loss: 0.084836; accuracy source: 0.667689; accuracy target: 0.296076; val accuracy: 0.444871;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 177/500] source_loss:0.000552 loss: 0.084737; accuracy source: 0.669905; accuracy target: 0.319828; val accuracy: 0.460123;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 178/500] source_loss:0.000550 loss: 0.084851; accuracy source: 0.669793; accuracy target: 0.307370; val accuracy: 0.460938;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 179/500] source_loss:0.000553 loss: 0.084728; accuracy source: 0.670678; accuracy target: 0.327279; val accuracy: 0.470835;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 180/500] source_loss:0.000550 loss: 0.084827; accuracy source: 0.668720; accuracy target: 0.307486; val accuracy: 0.454651;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 181/500] source_loss:0.000549 loss: 0.084804; accuracy source: 0.668917; accuracy target: 0.303877; val accuracy: 0.448015;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 182/500] source_loss:0.000550 loss: 0.084786; accuracy source: 0.669201; accuracy target: 0.315753; val accuracy: 0.451391;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 183/500] source_loss:0.000550 loss: 0.084767; accuracy source: 0.667560; accuracy target: 0.294097; val accuracy: 0.441844;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 184/500] source_loss:0.000550 loss: 0.084742; accuracy source: 0.668625; accuracy target: 0.303178; val accuracy: 0.448713;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 185/500] source_loss:0.000550 loss: 0.084843; accuracy source: 0.669115; accuracy target: 0.310513; val accuracy: 0.451275;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 186/500] source_loss:0.000551 loss: 0.084840; accuracy source: 0.668496; accuracy target: 0.304925; val accuracy: 0.450926;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 187/500] source_loss:0.000553 loss: 0.084776; accuracy source: 0.668307; accuracy target: 0.299802; val accuracy: 0.451042;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 188/500] source_loss:0.000555 loss: 0.084842; accuracy source: 0.667663; accuracy target: 0.293981; val accuracy: 0.451042;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 189/500] source_loss:0.000554 loss: 0.084859; accuracy source: 0.668634; accuracy target: 0.304925; val accuracy: 0.452206;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 190/500] source_loss:0.000551 loss: 0.084834; accuracy source: 0.668428; accuracy target: 0.310397; val accuracy: 0.455699;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 191/500] source_loss:0.000553 loss: 0.084892; accuracy source: 0.669476; accuracy target: 0.311096; val accuracy: 0.450460;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 192/500] source_loss:0.000550 loss: 0.084922; accuracy source: 0.668685; accuracy target: 0.310281; val accuracy: 0.455466;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 193/500] source_loss:0.000551 loss: 0.084876; accuracy source: 0.668007; accuracy target: 0.301316; val accuracy: 0.446734;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 194/500] source_loss:0.000551 loss: 0.084802; accuracy source: 0.668376; accuracy target: 0.298521; val accuracy: 0.445221;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 195/500] source_loss:0.000551 loss: 0.084793; accuracy source: 0.667749; accuracy target: 0.296891; val accuracy: 0.450809;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 196/500] source_loss:0.000550 loss: 0.084877; accuracy source: 0.668488; accuracy target: 0.310164; val accuracy: 0.457446;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 197/500] source_loss:0.000549 loss: 0.084822; accuracy source: 0.668015; accuracy target: 0.300850; val accuracy: 0.446036;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 198/500] source_loss:0.000548 loss: 0.084862; accuracy source: 0.666778; accuracy target: 0.292816; val accuracy: 0.449528;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 199/500] source_loss:0.000550 loss: 0.084983; accuracy source: 0.669372; accuracy target: 0.315986; val accuracy: 0.446967;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 200/500] source_loss:0.000550 loss: 0.084905; accuracy source: 0.668101; accuracy target: 0.300151; val accuracy: 0.442310;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 201/500] source_loss:0.000549 loss: 0.084983; accuracy source: 0.669175; accuracy target: 0.318896; val accuracy: 0.460822;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 202/500] source_loss:0.000550 loss: 0.084972; accuracy source: 0.669699; accuracy target: 0.318198; val accuracy: 0.459425;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 203/500] source_loss:0.000551 loss: 0.084966; accuracy source: 0.669776; accuracy target: 0.317732; val accuracy: 0.458843;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 204/500] source_loss:0.000548 loss: 0.084894; accuracy source: 0.670103; accuracy target: 0.323786; val accuracy: 0.459425;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 205/500] source_loss:0.000553 loss: 0.084915; accuracy source: 0.667603; accuracy target: 0.295727; val accuracy: 0.442659;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 206/500] source_loss:0.000548 loss: 0.084951; accuracy source: 0.669587; accuracy target: 0.314239; val accuracy: 0.458144;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 207/500] source_loss:0.000551 loss: 0.084948; accuracy source: 0.666813; accuracy target: 0.293399; val accuracy: 0.438351;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 208/500] source_loss:0.000549 loss: 0.085052; accuracy source: 0.668685; accuracy target: 0.312027; val accuracy: 0.454651;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 209/500] source_loss:0.000550 loss: 0.084996; accuracy source: 0.669338; accuracy target: 0.312376; val accuracy: 0.452439;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 210/500] source_loss:0.000548 loss: 0.085025; accuracy source: 0.670601; accuracy target: 0.337059; val accuracy: 0.465246;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 211/500] source_loss:0.000550 loss: 0.084988; accuracy source: 0.668187; accuracy target: 0.305856; val accuracy: 0.449994;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 212/500] source_loss:0.000553 loss: 0.084981; accuracy source: 0.667929; accuracy target: 0.301665; val accuracy: 0.450227;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 213/500] source_loss:0.000549 loss: 0.085015; accuracy source: 0.668806; accuracy target: 0.313075; val accuracy: 0.453021;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 214/500] source_loss:0.000553 loss: 0.085131; accuracy source: 0.668574; accuracy target: 0.302480; val accuracy: 0.450809;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 215/500] source_loss:0.000552 loss: 0.085144; accuracy source: 0.669098; accuracy target: 0.310630; val accuracy: 0.451275;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 216/500] source_loss:0.000551 loss: 0.085066; accuracy source: 0.667242; accuracy target: 0.295844; val accuracy: 0.439981;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 217/500] source_loss:0.000550 loss: 0.085079; accuracy source: 0.668788; accuracy target: 0.308185; val accuracy: 0.446268;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 218/500] source_loss:0.000549 loss: 0.085096; accuracy source: 0.668831; accuracy target: 0.310979; val accuracy: 0.452439;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 219/500] source_loss:0.000551 loss: 0.085087; accuracy source: 0.668857; accuracy target: 0.309466; val accuracy: 0.449645;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 220/500] source_loss:0.000548 loss: 0.085090; accuracy source: 0.667371; accuracy target: 0.301548; val accuracy: 0.451042;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 221/500] source_loss:0.000549 loss: 0.085036; accuracy source: 0.666916; accuracy target: 0.291652; val accuracy: 0.426010;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 222/500] source_loss:0.000551 loss: 0.085046; accuracy source: 0.670042; accuracy target: 0.323786; val accuracy: 0.459891;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 223/500] source_loss:0.000551 loss: 0.085140; accuracy source: 0.671151; accuracy target: 0.326930; val accuracy: 0.464082;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 224/500] source_loss:0.000551 loss: 0.085049; accuracy source: 0.665644; accuracy target: 0.280708; val accuracy: 0.429852;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 225/500] source_loss:0.000551 loss: 0.085152; accuracy source: 0.670687; accuracy target: 0.334381; val accuracy: 0.460240;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 226/500] source_loss:0.000550 loss: 0.085093; accuracy source: 0.666555; accuracy target: 0.282571; val accuracy: 0.435208;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 227/500] source_loss:0.000550 loss: 0.085175; accuracy source: 0.671193; accuracy target: 0.336593; val accuracy: 0.471766;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 228/500] source_loss:0.000550 loss: 0.085106; accuracy source: 0.670506; accuracy target: 0.336128; val accuracy: 0.480265;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 229/500] source_loss:0.000553 loss: 0.085168; accuracy source: 0.667852; accuracy target: 0.298172; val accuracy: 0.438235;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 230/500] source_loss:0.000551 loss: 0.085135; accuracy source: 0.668101; accuracy target: 0.300035; val accuracy: 0.440098;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 231/500] source_loss:0.000553 loss: 0.085295; accuracy source: 0.668032; accuracy target: 0.292001; val accuracy: 0.440564;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 232/500] source_loss:0.000552 loss: 0.085277; accuracy source: 0.667603; accuracy target: 0.296426; val accuracy: 0.448830;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 233/500] source_loss:0.000549 loss: 0.085190; accuracy source: 0.669518; accuracy target: 0.315869; val accuracy: 0.457329;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 234/500] source_loss:0.000555 loss: 0.085128; accuracy source: 0.669321; accuracy target: 0.317033; val accuracy: 0.453021;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 235/500] source_loss:0.000554 loss: 0.085185; accuracy source: 0.668058; accuracy target: 0.303644; val accuracy: 0.456863;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 236/500] source_loss:0.000550 loss: 0.085229; accuracy source: 0.669647; accuracy target: 0.317266; val accuracy: 0.465246;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 237/500] source_loss:0.000549 loss: 0.085175; accuracy source: 0.667234; accuracy target: 0.290837; val accuracy: 0.436838;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 238/500] source_loss:0.000554 loss: 0.085185; accuracy source: 0.667972; accuracy target: 0.304576; val accuracy: 0.445570;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 239/500] source_loss:0.000550 loss: 0.085228; accuracy source: 0.669106; accuracy target: 0.307021; val accuracy: 0.446734;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 240/500] source_loss:0.000555 loss: 0.085253; accuracy source: 0.669501; accuracy target: 0.316451; val accuracy: 0.460589;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 241/500] source_loss:0.000555 loss: 0.085252; accuracy source: 0.668831; accuracy target: 0.307836; val accuracy: 0.457678;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 242/500] source_loss:0.000549 loss: 0.085296; accuracy source: 0.668883; accuracy target: 0.310281; val accuracy: 0.449994;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 243/500] source_loss:0.000554 loss: 0.085159; accuracy source: 0.668900; accuracy target: 0.308068; val accuracy: 0.447782;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 244/500] source_loss:0.000551 loss: 0.085386; accuracy source: 0.668024; accuracy target: 0.304110; val accuracy: 0.441844;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 245/500] source_loss:0.000549 loss: 0.085252; accuracy source: 0.666538; accuracy target: 0.292467; val accuracy: 0.442310;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 246/500] source_loss:0.000552 loss: 0.085399; accuracy source: 0.669424; accuracy target: 0.316801; val accuracy: 0.461521;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 247/500] source_loss:0.000549 loss: 0.085360; accuracy source: 0.670609; accuracy target: 0.329375; val accuracy: 0.475026;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 248/500] source_loss:0.000548 loss: 0.085369; accuracy source: 0.669166; accuracy target: 0.317150; val accuracy: 0.457096;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 249/500] source_loss:0.000553 loss: 0.085493; accuracy source: 0.669957; accuracy target: 0.314705; val accuracy: 0.454418;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 250/500] source_loss:0.000550 loss: 0.085373; accuracy source: 0.670764; accuracy target: 0.335778; val accuracy: 0.469321;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 251/500] source_loss:0.000546 loss: 0.085435; accuracy source: 0.667234; accuracy target: 0.290954; val accuracy: 0.438351;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 252/500] source_loss:0.000553 loss: 0.085288; accuracy source: 0.668943; accuracy target: 0.308068; val accuracy: 0.461637;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 253/500] source_loss:0.000550 loss: 0.085379; accuracy source: 0.670429; accuracy target: 0.326348; val accuracy: 0.468273;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 254/500] source_loss:0.000548 loss: 0.085382; accuracy source: 0.671846; accuracy target: 0.340901; val accuracy: 0.465828;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 255/500] source_loss:0.000549 loss: 0.085367; accuracy source: 0.669372; accuracy target: 0.318198; val accuracy: 0.461637;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 256/500] source_loss:0.000558 loss: 0.085392; accuracy source: 0.668806; accuracy target: 0.309000; val accuracy: 0.450926;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 257/500] source_loss:0.000550 loss: 0.085449; accuracy source: 0.670231; accuracy target: 0.324368; val accuracy: 0.462219;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 258/500] source_loss:0.000554 loss: 0.085352; accuracy source: 0.669261; accuracy target: 0.317499; val accuracy: 0.462452;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 259/500] source_loss:0.000550 loss: 0.085451; accuracy source: 0.668934; accuracy target: 0.311096; val accuracy: 0.460007;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 260/500] source_loss:0.000554 loss: 0.085501; accuracy source: 0.669974; accuracy target: 0.316335; val accuracy: 0.453603;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 261/500] source_loss:0.000548 loss: 0.085457; accuracy source: 0.667148; accuracy target: 0.296659; val accuracy: 0.441379;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 262/500] source_loss:0.000548 loss: 0.085423; accuracy source: 0.671528; accuracy target: 0.340668; val accuracy: 0.469554;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 263/500] source_loss:0.000550 loss: 0.085465; accuracy source: 0.669355; accuracy target: 0.316568; val accuracy: 0.453254;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 264/500] source_loss:0.000551 loss: 0.085449; accuracy source: 0.670292; accuracy target: 0.332402; val accuracy: 0.470020;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 265/500] source_loss:0.000551 loss: 0.085580; accuracy source: 0.668625; accuracy target: 0.303062; val accuracy: 0.446036;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 266/500] source_loss:0.000549 loss: 0.085471; accuracy source: 0.669244; accuracy target: 0.315054; val accuracy: 0.462336;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 267/500] source_loss:0.000554 loss: 0.085595; accuracy source: 0.669037; accuracy target: 0.311096; val accuracy: 0.446734;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 268/500] source_loss:0.000550 loss: 0.085492; accuracy source: 0.669295; accuracy target: 0.315054; val accuracy: 0.456514;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 269/500] source_loss:0.000551 loss: 0.085463; accuracy source: 0.669415; accuracy target: 0.313541; val accuracy: 0.449179;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 270/500] source_loss:0.000551 loss: 0.085513; accuracy source: 0.668333; accuracy target: 0.304692; val accuracy: 0.450809;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 271/500] source_loss:0.000550 loss: 0.085467; accuracy source: 0.668548; accuracy target: 0.308534; val accuracy: 0.450343;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 272/500] source_loss:0.000550 loss: 0.085561; accuracy source: 0.665859; accuracy target: 0.277681; val accuracy: 0.430434;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 273/500] source_loss:0.000551 loss: 0.085637; accuracy source: 0.671133; accuracy target: 0.335545; val accuracy: 0.470602;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 274/500] source_loss:0.000551 loss: 0.085631; accuracy source: 0.670283; accuracy target: 0.320759; val accuracy: 0.447898;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 275/500] source_loss:0.000550 loss: 0.085515; accuracy source: 0.668685; accuracy target: 0.300268; val accuracy: 0.449179;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 276/500] source_loss:0.000552 loss: 0.085650; accuracy source: 0.667448; accuracy target: 0.290954; val accuracy: 0.436256;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 277/500] source_loss:0.000551 loss: 0.085653; accuracy source: 0.669742; accuracy target: 0.314588; val accuracy: 0.455350;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 278/500] source_loss:0.000549 loss: 0.085681; accuracy source: 0.668788; accuracy target: 0.303644; val accuracy: 0.454186;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 279/500] source_loss:0.000551 loss: 0.085692; accuracy source: 0.668685; accuracy target: 0.309582; val accuracy: 0.450693;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 280/500] source_loss:0.000553 loss: 0.085740; accuracy source: 0.670292; accuracy target: 0.329142; val accuracy: 0.471417;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 281/500] source_loss:0.000555 loss: 0.085610; accuracy source: 0.668136; accuracy target: 0.303062; val accuracy: 0.454768;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 282/500] source_loss:0.000551 loss: 0.085668; accuracy source: 0.670206; accuracy target: 0.318431; val accuracy: 0.453254;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 283/500] source_loss:0.000552 loss: 0.085749; accuracy source: 0.670197; accuracy target: 0.322738; val accuracy: 0.465945;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 284/500] source_loss:0.000550 loss: 0.085712; accuracy source: 0.668659; accuracy target: 0.302247; val accuracy: 0.438701;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 285/500] source_loss:0.000553 loss: 0.085783; accuracy source: 0.670094; accuracy target: 0.320177; val accuracy: 0.465363;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 286/500] source_loss:0.000548 loss: 0.085829; accuracy source: 0.670334; accuracy target: 0.324019; val accuracy: 0.467691;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 287/500] source_loss:0.000554 loss: 0.085732; accuracy source: 0.668994; accuracy target: 0.317033; val accuracy: 0.454302;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 288/500] source_loss:0.000551 loss: 0.085755; accuracy source: 0.671039; accuracy target: 0.340668; val accuracy: 0.471184;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 289/500] source_loss:0.000550 loss: 0.085836; accuracy source: 0.668453; accuracy target: 0.302946; val accuracy: 0.441379;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 290/500] source_loss:0.000552 loss: 0.085716; accuracy source: 0.669690; accuracy target: 0.320643; val accuracy: 0.456514;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 291/500] source_loss:0.000549 loss: 0.085754; accuracy source: 0.667938; accuracy target: 0.298056; val accuracy: 0.448830;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 292/500] source_loss:0.000550 loss: 0.085846; accuracy source: 0.669759; accuracy target: 0.312493; val accuracy: 0.449179;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 293/500] source_loss:0.000551 loss: 0.085837; accuracy source: 0.669579; accuracy target: 0.318314; val accuracy: 0.458377;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 294/500] source_loss:0.000550 loss: 0.085854; accuracy source: 0.670635; accuracy target: 0.322738; val accuracy: 0.466993;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 295/500] source_loss:0.000548 loss: 0.085876; accuracy source: 0.667869; accuracy target: 0.300850; val accuracy: 0.448946;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 296/500] source_loss:0.000549 loss: 0.085743; accuracy source: 0.671297; accuracy target: 0.341134; val accuracy: 0.472465;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 297/500] source_loss:0.000550 loss: 0.085775; accuracy source: 0.667543; accuracy target: 0.296193; val accuracy: 0.453254;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 298/500] source_loss:0.000549 loss: 0.085795; accuracy source: 0.670386; accuracy target: 0.323903; val accuracy: 0.466876;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 299/500] source_loss:0.000552 loss: 0.085921; accuracy source: 0.667311; accuracy target: 0.292118; val accuracy: 0.442659;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 300/500] source_loss:0.000550 loss: 0.085927; accuracy source: 0.669871; accuracy target: 0.319478; val accuracy: 0.448946;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 301/500] source_loss:0.000552 loss: 0.085949; accuracy source: 0.668814; accuracy target: 0.309815; val accuracy: 0.463733;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 302/500] source_loss:0.000551 loss: 0.085937; accuracy source: 0.669579; accuracy target: 0.312493; val accuracy: 0.457213;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 303/500] source_loss:0.000551 loss: 0.085947; accuracy source: 0.669441; accuracy target: 0.321341; val accuracy: 0.462801;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 304/500] source_loss:0.000551 loss: 0.085864; accuracy source: 0.669106; accuracy target: 0.311445; val accuracy: 0.460938;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 305/500] source_loss:0.000551 loss: 0.086043; accuracy source: 0.667826; accuracy target: 0.297241; val accuracy: 0.439632;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 306/500] source_loss:0.000552 loss: 0.085955; accuracy source: 0.667156; accuracy target: 0.295261; val accuracy: 0.439981;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 307/500] source_loss:0.000550 loss: 0.085927; accuracy source: 0.668015; accuracy target: 0.302363; val accuracy: 0.445453;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 308/500] source_loss:0.000552 loss: 0.085926; accuracy source: 0.667139; accuracy target: 0.293399; val accuracy: 0.433927;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 309/500] source_loss:0.000550 loss: 0.085943; accuracy source: 0.670712; accuracy target: 0.332285; val accuracy: 0.460007;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 310/500] source_loss:0.000550 loss: 0.086050; accuracy source: 0.669742; accuracy target: 0.314938; val accuracy: 0.464198;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 311/500] source_loss:0.000551 loss: 0.085964; accuracy source: 0.669759; accuracy target: 0.320177; val accuracy: 0.462452;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 312/500] source_loss:0.000548 loss: 0.086068; accuracy source: 0.669974; accuracy target: 0.320992; val accuracy: 0.457795;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 313/500] source_loss:0.000550 loss: 0.085986; accuracy source: 0.669553; accuracy target: 0.314123; val accuracy: 0.448481;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 314/500] source_loss:0.000551 loss: 0.086004; accuracy source: 0.669141; accuracy target: 0.309815; val accuracy: 0.452439;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 315/500] source_loss:0.000549 loss: 0.085972; accuracy source: 0.667929; accuracy target: 0.297706; val accuracy: 0.456398;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 316/500] source_loss:0.000550 loss: 0.086049; accuracy source: 0.668136; accuracy target: 0.303761; val accuracy: 0.449179;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 317/500] source_loss:0.000550 loss: 0.086112; accuracy source: 0.669390; accuracy target: 0.316451; val accuracy: 0.456747;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 318/500] source_loss:0.000557 loss: 0.086105; accuracy source: 0.668840; accuracy target: 0.302014; val accuracy: 0.442310;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 319/500] source_loss:0.000554 loss: 0.086154; accuracy source: 0.670292; accuracy target: 0.323553; val accuracy: 0.462918;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 320/500] source_loss:0.000549 loss: 0.086129; accuracy source: 0.666675; accuracy target: 0.283735; val accuracy: 0.425195;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 321/500] source_loss:0.000549 loss: 0.086166; accuracy source: 0.668771; accuracy target: 0.308534; val accuracy: 0.455233;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 322/500] source_loss:0.000551 loss: 0.086224; accuracy source: 0.670317; accuracy target: 0.317383; val accuracy: 0.461986;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 323/500] source_loss:0.000554 loss: 0.086160; accuracy source: 0.670111; accuracy target: 0.325649; val accuracy: 0.469205;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 324/500] source_loss:0.000552 loss: 0.086110; accuracy source: 0.669072; accuracy target: 0.309698; val accuracy: 0.450693;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 325/500] source_loss:0.000549 loss: 0.086098; accuracy source: 0.669828; accuracy target: 0.319246; val accuracy: 0.461637;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 326/500] source_loss:0.000550 loss: 0.086167; accuracy source: 0.670240; accuracy target: 0.318081; val accuracy: 0.464431;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 327/500] source_loss:0.000550 loss: 0.086090; accuracy source: 0.668617; accuracy target: 0.309466; val accuracy: 0.451391;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 328/500] source_loss:0.000550 loss: 0.086225; accuracy source: 0.667354; accuracy target: 0.286296; val accuracy: 0.437071;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 329/500] source_loss:0.000549 loss: 0.086249; accuracy source: 0.671065; accuracy target: 0.335545; val accuracy: 0.468273;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 330/500] source_loss:0.000551 loss: 0.086250; accuracy source: 0.667947; accuracy target: 0.296542; val accuracy: 0.434393;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 331/500] source_loss:0.000550 loss: 0.086212; accuracy source: 0.666065; accuracy target: 0.279194; val accuracy: 0.434742;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 332/500] source_loss:0.000552 loss: 0.086209; accuracy source: 0.669742; accuracy target: 0.319246; val accuracy: 0.450926;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 333/500] source_loss:0.000550 loss: 0.086354; accuracy source: 0.672027; accuracy target: 0.344510; val accuracy: 0.465246;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 334/500] source_loss:0.000551 loss: 0.086258; accuracy source: 0.670386; accuracy target: 0.319478; val accuracy: 0.453836;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 335/500] source_loss:0.000548 loss: 0.086309; accuracy source: 0.668290; accuracy target: 0.304692; val accuracy: 0.446268;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 336/500] source_loss:0.000554 loss: 0.086335; accuracy source: 0.670790; accuracy target: 0.335895; val accuracy: 0.470369;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 337/500] source_loss:0.000550 loss: 0.086325; accuracy source: 0.669407; accuracy target: 0.315986; val accuracy: 0.450460;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 338/500] source_loss:0.000549 loss: 0.086320; accuracy source: 0.672370; accuracy target: 0.347072; val accuracy: 0.470486;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 339/500] source_loss:0.000551 loss: 0.086427; accuracy source: 0.669596; accuracy target: 0.317150; val accuracy: 0.460007;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 340/500] source_loss:0.000550 loss: 0.086408; accuracy source: 0.669012; accuracy target: 0.317383; val accuracy: 0.458843;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 341/500] source_loss:0.000549 loss: 0.086416; accuracy source: 0.668144; accuracy target: 0.303411; val accuracy: 0.452556;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 342/500] source_loss:0.000550 loss: 0.086443; accuracy source: 0.668299; accuracy target: 0.300384; val accuracy: 0.452905;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 343/500] source_loss:0.000550 loss: 0.086393; accuracy source: 0.667998; accuracy target: 0.306089; val accuracy: 0.448015;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 344/500] source_loss:0.000549 loss: 0.086340; accuracy source: 0.669888; accuracy target: 0.317499; val accuracy: 0.459425;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 345/500] source_loss:0.000549 loss: 0.086461; accuracy source: 0.670429; accuracy target: 0.321225; val accuracy: 0.459192;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 346/500] source_loss:0.000549 loss: 0.086441; accuracy source: 0.668153; accuracy target: 0.305973; val accuracy: 0.442194;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 347/500] source_loss:0.000550 loss: 0.086443; accuracy source: 0.667302; accuracy target: 0.291303; val accuracy: 0.433461;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 348/500] source_loss:0.000554 loss: 0.086475; accuracy source: 0.668153; accuracy target: 0.305158; val accuracy: 0.450693;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 349/500] source_loss:0.000551 loss: 0.086549; accuracy source: 0.669570; accuracy target: 0.315869; val accuracy: 0.458726;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 350/500] source_loss:0.000550 loss: 0.086534; accuracy source: 0.668247; accuracy target: 0.302829; val accuracy: 0.455816;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 351/500] source_loss:0.000552 loss: 0.086487; accuracy source: 0.668127; accuracy target: 0.309698; val accuracy: 0.458959;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 352/500] source_loss:0.000549 loss: 0.086517; accuracy source: 0.668625; accuracy target: 0.314123; val accuracy: 0.456281;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 353/500] source_loss:0.000552 loss: 0.086478; accuracy source: 0.668376; accuracy target: 0.302596; val accuracy: 0.449994;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 354/500] source_loss:0.000556 loss: 0.086623; accuracy source: 0.669493; accuracy target: 0.320293; val accuracy: 0.455699;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 355/500] source_loss:0.000549 loss: 0.086586; accuracy source: 0.665911; accuracy target: 0.276167; val accuracy: 0.436256;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 356/500] source_loss:0.000548 loss: 0.086575; accuracy source: 0.668702; accuracy target: 0.307719; val accuracy: 0.445337;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 357/500] source_loss:0.000549 loss: 0.086561; accuracy source: 0.670257; accuracy target: 0.325649; val accuracy: 0.457911;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 358/500] source_loss:0.000549 loss: 0.086628; accuracy source: 0.669725; accuracy target: 0.314356; val accuracy: 0.447316;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 359/500] source_loss:0.000551 loss: 0.086583; accuracy source: 0.668831; accuracy target: 0.304343; val accuracy: 0.448946;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 360/500] source_loss:0.000550 loss: 0.086660; accuracy source: 0.669106; accuracy target: 0.308534; val accuracy: 0.449179;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 361/500] source_loss:0.000551 loss: 0.086599; accuracy source: 0.668891; accuracy target: 0.303062; val accuracy: 0.450227;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 362/500] source_loss:0.000552 loss: 0.086617; accuracy source: 0.668187; accuracy target: 0.302596; val accuracy: 0.445453;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 363/500] source_loss:0.000550 loss: 0.086642; accuracy source: 0.667758; accuracy target: 0.297590; val accuracy: 0.445337;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 364/500] source_loss:0.000550 loss: 0.086725; accuracy source: 0.666821; accuracy target: 0.286879; val accuracy: 0.436372;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 365/500] source_loss:0.000556 loss: 0.086674; accuracy source: 0.670146; accuracy target: 0.317965; val accuracy: 0.452905;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 366/500] source_loss:0.000550 loss: 0.086776; accuracy source: 0.668264; accuracy target: 0.308883; val accuracy: 0.450111;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 367/500] source_loss:0.000547 loss: 0.086703; accuracy source: 0.667328; accuracy target: 0.294446; val accuracy: 0.446851;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 368/500] source_loss:0.000551 loss: 0.086721; accuracy source: 0.668994; accuracy target: 0.304226; val accuracy: 0.454418;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 369/500] source_loss:0.000553 loss: 0.086756; accuracy source: 0.667474; accuracy target: 0.292933; val accuracy: 0.445221;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 370/500] source_loss:0.000550 loss: 0.086712; accuracy source: 0.669381; accuracy target: 0.312609; val accuracy: 0.449179;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 371/500] source_loss:0.000552 loss: 0.086784; accuracy source: 0.669141; accuracy target: 0.308418; val accuracy: 0.453720;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 372/500] source_loss:0.000549 loss: 0.086764; accuracy source: 0.668565; accuracy target: 0.310397; val accuracy: 0.454418;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 373/500] source_loss:0.000554 loss: 0.086883; accuracy source: 0.668307; accuracy target: 0.302596; val accuracy: 0.451158;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 374/500] source_loss:0.000549 loss: 0.086793; accuracy source: 0.668909; accuracy target: 0.304459; val accuracy: 0.444638;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 375/500] source_loss:0.000551 loss: 0.086889; accuracy source: 0.667191; accuracy target: 0.293515; val accuracy: 0.442194;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 376/500] source_loss:0.000551 loss: 0.086891; accuracy source: 0.668367; accuracy target: 0.300733; val accuracy: 0.449645;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 377/500] source_loss:0.000549 loss: 0.086885; accuracy source: 0.668797; accuracy target: 0.307021; val accuracy: 0.450460;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 378/500] source_loss:0.000550 loss: 0.086831; accuracy source: 0.668402; accuracy target: 0.310979; val accuracy: 0.446967;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 379/500] source_loss:0.000549 loss: 0.086824; accuracy source: 0.670249; accuracy target: 0.326930; val accuracy: 0.452206;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 380/500] source_loss:0.000551 loss: 0.086930; accuracy source: 0.670481; accuracy target: 0.333100; val accuracy: 0.467691;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 381/500] source_loss:0.000551 loss: 0.086870; accuracy source: 0.667603; accuracy target: 0.301781; val accuracy: 0.449063;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 382/500] source_loss:0.000551 loss: 0.086994; accuracy source: 0.670231; accuracy target: 0.321807; val accuracy: 0.455816;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 383/500] source_loss:0.000553 loss: 0.087004; accuracy source: 0.668943; accuracy target: 0.315869; val accuracy: 0.448713;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 384/500] source_loss:0.000552 loss: 0.086888; accuracy source: 0.669364; accuracy target: 0.310513; val accuracy: 0.456631;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 385/500] source_loss:0.000550 loss: 0.086964; accuracy source: 0.669733; accuracy target: 0.319246; val accuracy: 0.463034;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 386/500] source_loss:0.000549 loss: 0.086957; accuracy source: 0.669596; accuracy target: 0.312143; val accuracy: 0.447549;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 387/500] source_loss:0.000553 loss: 0.087066; accuracy source: 0.669536; accuracy target: 0.313191; val accuracy: 0.451624;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 388/500] source_loss:0.000553 loss: 0.087010; accuracy source: 0.669742; accuracy target: 0.307603; val accuracy: 0.454884;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 389/500] source_loss:0.000551 loss: 0.087054; accuracy source: 0.667947; accuracy target: 0.302131; val accuracy: 0.445104;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 390/500] source_loss:0.000550 loss: 0.087004; accuracy source: 0.668943; accuracy target: 0.309931; val accuracy: 0.447666;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 391/500] source_loss:0.000551 loss: 0.087072; accuracy source: 0.669828; accuracy target: 0.319013; val accuracy: 0.459425;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 392/500] source_loss:0.000549 loss: 0.086995; accuracy source: 0.668436; accuracy target: 0.304925; val accuracy: 0.449994;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 393/500] source_loss:0.000550 loss: 0.087091; accuracy source: 0.667998; accuracy target: 0.309116; val accuracy: 0.449063;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 394/500] source_loss:0.000550 loss: 0.087127; accuracy source: 0.667397; accuracy target: 0.297124; val accuracy: 0.448597;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 395/500] source_loss:0.000551 loss: 0.087084; accuracy source: 0.667543; accuracy target: 0.298172; val accuracy: 0.446152;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 396/500] source_loss:0.000552 loss: 0.087190; accuracy source: 0.669467; accuracy target: 0.310281; val accuracy: 0.449296;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 397/500] source_loss:0.000552 loss: 0.087186; accuracy source: 0.669347; accuracy target: 0.312609; val accuracy: 0.449645;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 398/500] source_loss:0.000552 loss: 0.087079; accuracy source: 0.667869; accuracy target: 0.295261; val accuracy: 0.444056;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 399/500] source_loss:0.000549 loss: 0.087226; accuracy source: 0.667697; accuracy target: 0.300733; val accuracy: 0.447316;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 400/500] source_loss:0.000552 loss: 0.087234; accuracy source: 0.669690; accuracy target: 0.318896; val accuracy: 0.450926;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 401/500] source_loss:0.000549 loss: 0.087199; accuracy source: 0.668694; accuracy target: 0.303877; val accuracy: 0.452323;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 402/500] source_loss:0.000549 loss: 0.087145; accuracy source: 0.669201; accuracy target: 0.312027; val accuracy: 0.457213;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 403/500] source_loss:0.000550 loss: 0.087215; accuracy source: 0.667715; accuracy target: 0.296891; val accuracy: 0.432414;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 404/500] source_loss:0.000550 loss: 0.087232; accuracy source: 0.667637; accuracy target: 0.300268; val accuracy: 0.448015;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 405/500] source_loss:0.000552 loss: 0.087345; accuracy source: 0.670833; accuracy target: 0.330888; val accuracy: 0.457795;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 406/500] source_loss:0.000549 loss: 0.087331; accuracy source: 0.669012; accuracy target: 0.313424; val accuracy: 0.451741;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 407/500] source_loss:0.000551 loss: 0.087219; accuracy source: 0.670111; accuracy target: 0.320643; val accuracy: 0.465712;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 408/500] source_loss:0.000551 loss: 0.087322; accuracy source: 0.670120; accuracy target: 0.315869; val accuracy: 0.456281;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 409/500] source_loss:0.000551 loss: 0.087389; accuracy source: 0.668977; accuracy target: 0.307719; val accuracy: 0.454418;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 410/500] source_loss:0.000552 loss: 0.087328; accuracy source: 0.671065; accuracy target: 0.340319; val accuracy: 0.472232;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 411/500] source_loss:0.000552 loss: 0.087391; accuracy source: 0.668668; accuracy target: 0.304576; val accuracy: 0.446501;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 412/500] source_loss:0.000551 loss: 0.087431; accuracy source: 0.665902; accuracy target: 0.277914; val accuracy: 0.427873;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 413/500] source_loss:0.000550 loss: 0.087383; accuracy source: 0.668677; accuracy target: 0.305856; val accuracy: 0.453953;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 414/500] source_loss:0.000552 loss: 0.087446; accuracy source: 0.669261; accuracy target: 0.308301; val accuracy: 0.451973;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 415/500] source_loss:0.000552 loss: 0.087367; accuracy source: 0.668204; accuracy target: 0.304925; val accuracy: 0.450227;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 416/500] source_loss:0.000552 loss: 0.087439; accuracy source: 0.669768; accuracy target: 0.317848; val accuracy: 0.457795;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 417/500] source_loss:0.000551 loss: 0.087544; accuracy source: 0.669819; accuracy target: 0.318780; val accuracy: 0.459192;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 418/500] source_loss:0.000550 loss: 0.087467; accuracy source: 0.668410; accuracy target: 0.300850; val accuracy: 0.449645;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 419/500] source_loss:0.000547 loss: 0.087460; accuracy source: 0.668702; accuracy target: 0.304692; val accuracy: 0.450111;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 420/500] source_loss:0.000549 loss: 0.087453; accuracy source: 0.668402; accuracy target: 0.305623; val accuracy: 0.448131;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 421/500] source_loss:0.000552 loss: 0.087507; accuracy source: 0.669106; accuracy target: 0.313308; val accuracy: 0.448830;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 422/500] source_loss:0.000549 loss: 0.087621; accuracy source: 0.670257; accuracy target: 0.324485; val accuracy: 0.461986;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 423/500] source_loss:0.000550 loss: 0.087536; accuracy source: 0.669295; accuracy target: 0.314472; val accuracy: 0.456165;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 424/500] source_loss:0.000549 loss: 0.087583; accuracy source: 0.669201; accuracy target: 0.316801; val accuracy: 0.452323;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 425/500] source_loss:0.000550 loss: 0.087650; accuracy source: 0.668513; accuracy target: 0.306206; val accuracy: 0.442776;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 426/500] source_loss:0.000549 loss: 0.087608; accuracy source: 0.670292; accuracy target: 0.322040; val accuracy: 0.471417;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 427/500] source_loss:0.000551 loss: 0.087621; accuracy source: 0.668702; accuracy target: 0.306788; val accuracy: 0.452672;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 428/500] source_loss:0.000549 loss: 0.087738; accuracy source: 0.670884; accuracy target: 0.330888; val accuracy: 0.460938;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 429/500] source_loss:0.000548 loss: 0.087642; accuracy source: 0.669587; accuracy target: 0.321691; val accuracy: 0.463267;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 430/500] source_loss:0.000554 loss: 0.087651; accuracy source: 0.669682; accuracy target: 0.315986; val accuracy: 0.462219;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 431/500] source_loss:0.000549 loss: 0.087662; accuracy source: 0.668488; accuracy target: 0.310281; val accuracy: 0.457562;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 432/500] source_loss:0.000549 loss: 0.087738; accuracy source: 0.671606; accuracy target: 0.337408; val accuracy: 0.476190;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 433/500] source_loss:0.000552 loss: 0.087777; accuracy source: 0.668531; accuracy target: 0.308068; val accuracy: 0.447316;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 434/500] source_loss:0.000552 loss: 0.087714; accuracy source: 0.668428; accuracy target: 0.304576; val accuracy: 0.450809;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 435/500] source_loss:0.000550 loss: 0.087766; accuracy source: 0.671451; accuracy target: 0.340203; val accuracy: 0.467342;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 436/500] source_loss:0.000557 loss: 0.087765; accuracy source: 0.668075; accuracy target: 0.296076; val accuracy: 0.439981;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 437/500] source_loss:0.000551 loss: 0.087785; accuracy source: 0.667921; accuracy target: 0.302480; val accuracy: 0.450693;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 438/500] source_loss:0.000549 loss: 0.087771; accuracy source: 0.667654; accuracy target: 0.298521; val accuracy: 0.452090;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 439/500] source_loss:0.000551 loss: 0.087784; accuracy source: 0.669183; accuracy target: 0.311678; val accuracy: 0.460706;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 440/500] source_loss:0.000549 loss: 0.087852; accuracy source: 0.668728; accuracy target: 0.310397; val accuracy: 0.450227;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 441/500] source_loss:0.000552 loss: 0.087895; accuracy source: 0.669690; accuracy target: 0.309698; val accuracy: 0.451508;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 442/500] source_loss:0.000552 loss: 0.087796; accuracy source: 0.669020; accuracy target: 0.300850; val accuracy: 0.451857;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 443/500] source_loss:0.000550 loss: 0.087851; accuracy source: 0.668574; accuracy target: 0.303062; val accuracy: 0.446618;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 444/500] source_loss:0.000551 loss: 0.087954; accuracy source: 0.668316; accuracy target: 0.308534; val accuracy: 0.460007;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 445/500] source_loss:0.000551 loss: 0.087921; accuracy source: 0.669836; accuracy target: 0.319362; val accuracy: 0.459425;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 446/500] source_loss:0.000553 loss: 0.087868; accuracy source: 0.667088; accuracy target: 0.295378; val accuracy: 0.432297;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 447/500] source_loss:0.000551 loss: 0.087965; accuracy source: 0.668531; accuracy target: 0.305973; val accuracy: 0.448946;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 448/500] source_loss:0.000548 loss: 0.087975; accuracy source: 0.667199; accuracy target: 0.297590; val accuracy: 0.449179;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 449/500] source_loss:0.000552 loss: 0.088013; accuracy source: 0.669252; accuracy target: 0.312027; val accuracy: 0.449878;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 450/500] source_loss:0.000551 loss: 0.088009; accuracy source: 0.669166; accuracy target: 0.310979; val accuracy: 0.440913;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 451/500] source_loss:0.000551 loss: 0.087980; accuracy source: 0.666246; accuracy target: 0.286064; val accuracy: 0.431366;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 452/500] source_loss:0.000550 loss: 0.088100; accuracy source: 0.669587; accuracy target: 0.321108; val accuracy: 0.465712;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 453/500] source_loss:0.000549 loss: 0.088051; accuracy source: 0.668084; accuracy target: 0.298521; val accuracy: 0.443823;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 454/500] source_loss:0.000550 loss: 0.088101; accuracy source: 0.670068; accuracy target: 0.319944; val accuracy: 0.462685;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 455/500] source_loss:0.000550 loss: 0.088034; accuracy source: 0.669295; accuracy target: 0.315753; val accuracy: 0.451275;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 456/500] source_loss:0.000551 loss: 0.088025; accuracy source: 0.667500; accuracy target: 0.292584; val accuracy: 0.445453;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 457/500] source_loss:0.000553 loss: 0.088115; accuracy source: 0.669020; accuracy target: 0.311445; val accuracy: 0.453487;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 458/500] source_loss:0.000555 loss: 0.088098; accuracy source: 0.668891; accuracy target: 0.310164; val accuracy: 0.463966;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 459/500] source_loss:0.000552 loss: 0.088131; accuracy source: 0.667758; accuracy target: 0.297357; val accuracy: 0.430900;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 460/500] source_loss:0.000550 loss: 0.088110; accuracy source: 0.669252; accuracy target: 0.312609; val accuracy: 0.453021;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 461/500] source_loss:0.000551 loss: 0.088237; accuracy source: 0.667345; accuracy target: 0.294446; val accuracy: 0.445803;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 462/500] source_loss:0.000549 loss: 0.088256; accuracy source: 0.668943; accuracy target: 0.310164; val accuracy: 0.455583;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 463/500] source_loss:0.000552 loss: 0.088241; accuracy source: 0.669003; accuracy target: 0.314123; val accuracy: 0.454418;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 464/500] source_loss:0.000550 loss: 0.088259; accuracy source: 0.669750; accuracy target: 0.319246; val accuracy: 0.462568;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 465/500] source_loss:0.000552 loss: 0.088214; accuracy source: 0.669347; accuracy target: 0.315403; val accuracy: 0.454069;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 466/500] source_loss:0.000551 loss: 0.088247; accuracy source: 0.669037; accuracy target: 0.310513; val accuracy: 0.462336;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 467/500] source_loss:0.000549 loss: 0.088273; accuracy source: 0.668393; accuracy target: 0.301781; val accuracy: 0.447782;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 468/500] source_loss:0.000549 loss: 0.088327; accuracy source: 0.669570; accuracy target: 0.317848; val accuracy: 0.462219;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 469/500] source_loss:0.000552 loss: 0.088321; accuracy source: 0.668024; accuracy target: 0.295261; val accuracy: 0.441728;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 470/500] source_loss:0.000550 loss: 0.088321; accuracy source: 0.669321; accuracy target: 0.311445; val accuracy: 0.459541;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 471/500] source_loss:0.000549 loss: 0.088344; accuracy source: 0.670231; accuracy target: 0.319362; val accuracy: 0.461637;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 472/500] source_loss:0.000553 loss: 0.088324; accuracy source: 0.668084; accuracy target: 0.301665; val accuracy: 0.443358;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 473/500] source_loss:0.000553 loss: 0.088420; accuracy source: 0.666589; accuracy target: 0.283502; val accuracy: 0.441611;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 474/500] source_loss:0.000548 loss: 0.088393; accuracy source: 0.670704; accuracy target: 0.334148; val accuracy: 0.458610;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 475/500] source_loss:0.000555 loss: 0.088450; accuracy source: 0.669037; accuracy target: 0.303993; val accuracy: 0.456398;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 476/500] source_loss:0.000550 loss: 0.088557; accuracy source: 0.667801; accuracy target: 0.303295; val accuracy: 0.455932;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 477/500] source_loss:0.000550 loss: 0.088479; accuracy source: 0.670979; accuracy target: 0.336593; val accuracy: 0.467458;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 478/500] source_loss:0.000551 loss: 0.088456; accuracy source: 0.669853; accuracy target: 0.315403; val accuracy: 0.455117;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 479/500] source_loss:0.000550 loss: 0.088480; accuracy source: 0.668848; accuracy target: 0.307370; val accuracy: 0.457329;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 480/500] source_loss:0.000550 loss: 0.088542; accuracy source: 0.670051; accuracy target: 0.323088; val accuracy: 0.461055;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 481/500] source_loss:0.000550 loss: 0.088508; accuracy source: 0.669476; accuracy target: 0.315171; val accuracy: 0.448597;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 482/500] source_loss:0.000550 loss: 0.088616; accuracy source: 0.669175; accuracy target: 0.314356; val accuracy: 0.453953;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 483/500] source_loss:0.000550 loss: 0.088628; accuracy source: 0.669828; accuracy target: 0.314123; val accuracy: 0.454651;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 484/500] source_loss:0.000550 loss: 0.088659; accuracy source: 0.668952; accuracy target: 0.309698; val accuracy: 0.455117;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 485/500] source_loss:0.000548 loss: 0.088737; accuracy source: 0.667088; accuracy target: 0.298521; val accuracy: 0.447433;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 486/500] source_loss:0.000554 loss: 0.088651; accuracy source: 0.670824; accuracy target: 0.329491; val accuracy: 0.470835;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 487/500] source_loss:0.000554 loss: 0.088657; accuracy source: 0.667397; accuracy target: 0.293748; val accuracy: 0.438701;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 488/500] source_loss:0.000552 loss: 0.088596; accuracy source: 0.669725; accuracy target: 0.315869; val accuracy: 0.451391;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 489/500] source_loss:0.000554 loss: 0.088655; accuracy source: 0.668273; accuracy target: 0.306555; val accuracy: 0.445686;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 490/500] source_loss:0.000554 loss: 0.088690; accuracy source: 0.667242; accuracy target: 0.288741; val accuracy: 0.429270;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 4 ... 3 0 0]
+[Epoch 491/500] source_loss:0.000550 loss: 0.088784; accuracy source: 0.669355; accuracy target: 0.314472; val accuracy: 0.453836;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 492/500] source_loss:0.000553 loss: 0.088710; accuracy source: 0.667586; accuracy target: 0.299802; val accuracy: 0.447200;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 493/500] source_loss:0.000556 loss: 0.088733; accuracy source: 0.669673; accuracy target: 0.317499; val accuracy: 0.455233;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 494/500] source_loss:0.000550 loss: 0.088768; accuracy source: 0.669424; accuracy target: 0.307603; val accuracy: 0.453487;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 495/500] source_loss:0.000552 loss: 0.088849; accuracy source: 0.670188; accuracy target: 0.322156; val accuracy: 0.455233;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 496/500] source_loss:0.000551 loss: 0.088780; accuracy source: 0.667852; accuracy target: 0.300384; val accuracy: 0.450227;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 497/500] source_loss:0.000554 loss: 0.088840; accuracy source: 0.668591; accuracy target: 0.305391; val accuracy: 0.449528;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 498/500] source_loss:0.000551 loss: 0.088834; accuracy source: 0.668428; accuracy target: 0.298172; val accuracy: 0.447898;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 4 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 499/500] source_loss:0.000551 loss: 0.088944; accuracy source: 0.671357; accuracy target: 0.338456; val accuracy: 0.464897;
+source [0 0 0 ... 0 0 0] [0 0 0 ... 0 0 0]
+target [1 0 0 ... 0 1 0] [2 0 2 ... 0 2 0]
+test [1 0 0 ... 0 1 0] [3 3 0 ... 3 0 0]
+[Epoch 500/500] source_loss:0.000551 loss: 0.088972; accuracy source: 0.670403; accuracy target: 0.322506; val accuracy: 0.454535;
+accuracy on test set = 0.5943648853184306
+Traceback (most recent call last):
+  File "/home/lyy/UDA-sleep/code/main.py", line 94, in <module>
+    adamatch.plot_cm_roc(target_dataloader_test)
+  File "/home/lyy/UDA-sleep/code/model/adamatch.py", line 386, in plot_cm_roc
+    fpr[i], tpr[i], _ = sklearn.metrics.roc_curve(onehot[:, i], outputs_list[:, i])
+IndexError: index 2 is out of bounds for axis 1 with size 2
