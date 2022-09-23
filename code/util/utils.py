@@ -6,7 +6,13 @@ import os
 import sys
 import logging
 from sklearn.metrics import classification_report, cohen_kappa_score, confusion_matrix, accuracy_score
+from sklearn.preprocessing import RobustScaler
 from shutil import copy
+import matplotlib.pyplot as plt
+# import plotly.express as px
+import seaborn as sns
+import umap
+import umap.plot
 
 def set_requires_grad(model, dict_, requires_grad=True):
     for param in model.named_parameters():
@@ -80,7 +86,72 @@ def _logger(logger_name, level=logging.DEBUG):
     return logger
 
 
+def decomposition_UMAP_2D(all_data,save_path,labels,n_neighbors=5, min_dist=0.3):
+    import umap
+    
+    plt.figure(figsize=(12,8))
+    plt.title('Decomposition using UMAP 2D')
+    colors = ['c', 'b', 'g', 'r', 'm', 'y', 'k', 'w']
+    labels = labels
+    
+    for i,dataset in enumerate(all_data):
+        data = dataset.x_data
+        print(data.shape)
+        umap_data = umap.UMAP(n_neighbors=n_neighbors, min_dist=min_dist, n_components=2).fit_transform(data.reshape(data.shape[0],-1))
+        plt.scatter(umap_data[:,0], umap_data[:,1], c = colors[i])
+        
+        # plt.scatter(umap_data[:,1], umap_data[:,2])
+        # plt.scatter(umap_data[:,2], umap_data[:,0])
+    plt.legend(labels=labels,title="classes")
+    plt.savefig(f'{save_path}/umap_2D.png')
 
+def decomposition_UMAP_3D(all_data,save_path,labels,n_neighbors=100, min_dist=0.3):
+    import umap
+    fig=plt.figure(figsize=(12,8))
+    ax = fig.add_subplot(111, projection='3d')  #3d图需要加projection='3d'
+    plt.title('Decomposition using UMAP 3D')
+    colors = ['c', 'b', 'g', 'r', 'm', 'y', 'k', 'w']
+    labels = labels
+    
+    for i,dataset in enumerate(all_data):
+        data = dataset.x_data
+        print(data.shape)
+        umap_data = umap.UMAP(n_neighbors=n_neighbors, min_dist=min_dist, n_components=3).fit_transform(data.reshape(data.shape[0],-1))
+        plt.scatter(umap_data[:,0], umap_data[:,1],umap_data[:,2], c = colors[i], cmap='viridis')
+
+        # plt.scatter(umap_data[:,1], umap_data[:,2])
+        # plt.scatter(umap_data[:,2], umap_data[:,0])
+    plt.legend(labels=labels,title="classes")
+    plt.savefig(f'{save_path}/umap_3D.png')
+
+def decomposition_UMAP_labels(all_data,save_path,labels,n_neighbors=100):
+    save_path=f'{save_path}/umap_labels/'
+    os.makedirs(save_path,exist_ok=True)
+    for i,dataset in enumerate(all_data):
+        _decomposition_UMAP_labels(dataset,save_path,n_neighbors=n_neighbors, type=labels[i])
+
+def _decomposition_UMAP_labels(dataset,save_path,n_neighbors=100, type='origin'):
+    all_ys = dataset.y_data
+    # all_ys = all_ys.tolist()
+    # all_ys = all_ys.map({'W':0,'N1':1,'N2':2,'N3':3,'REM':4})
+    print(all_ys.shape)
+    labels = np.unique(all_ys)
+    print(labels)
+    # label_AASM = ['W','N1','N2','N3','REM']
+
+    # plot
+    plt.figure(figsize=(12,8)) #.add_subplot(111, projection='3d')  #3d图需要加projection='3d'
+    plt.title('Decomposition using UMAP 3D with Labels')
+    # colors = ['c', 'b', 'g', 'm', 'y', 'k', 'w']
+
+    data = dataset.x_data
+    umap_data = umap.UMAP(n_neighbors=n_neighbors, n_components=2).fit(data.reshape(data.shape[0],-1))
+    # plt.scatter(umap_data[:,0], umap_data[:,1], s=20 , c = colors[i], alpha=0.3, cmap='viridis')
+    umap.plot.points(umap_data,cmap='viridis',labels = all_ys)
+        # plt.scatter(umap_data[:,1], umap_data[:,2])
+        # plt.scatter(umap_data[:,2], umap_data[:,0])
+    # plt.legend(labels=label_AASM,title="classes")
+    plt.savefig(f'{save_path}/{type}.png')
 
 
 def copy_Files(destination,home_dir,encoder_name):

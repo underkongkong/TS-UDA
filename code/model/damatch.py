@@ -309,7 +309,7 @@ class Damatch():
             
         return accuracy
 
-    def plot_metrics(self):
+    def plot_metrics(self,savepath):
         """
         Plots the training metrics (only usable after calling .train()).
         """
@@ -335,8 +335,9 @@ class Damatch():
         axs[2].set_title('Accuracy on weakly augmented target')      
             
         plt.show()
+        plt.savefig(f'{savepath}/metrics.png')
 
-    def plot_cm_roc(self, dataloader, n_classes=5):
+    def plot_cm_roc(self, dataloader,savepath ,n_classes=5):
         """
         Plots the confusion matrix and ROC curves of the model on `dataloader`.
 
@@ -415,6 +416,7 @@ class Damatch():
         ax.set_aspect('equal')
         plt.legend(loc='lower right')
         plt.show()
+        plt.savefig(f'{savepath}/result.png')
 
     @staticmethod
     def _disable_batchnorm_tracking(model):

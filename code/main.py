@@ -24,7 +24,7 @@ class Config():
 
         self.kernel_size = 25
         self.stride = 3
-        self.features_len = 128
+        self.features_len = 127
         self.afr_reduced_cnn_size=2
         self.d_model = 48
         self.inplanes=2
@@ -120,8 +120,8 @@ for file in target_files:
 print("source_files_len:",len(source_path_))
 print("target_files_len:",len(target_path_))
 
-source_files = source_path_[0:50]
-target_files = target_path_[0:8]
+source_files = source_path_[150:]
+target_files = target_path_
 # target_files = source_path_[8:]
 
 data = data_generator_augment(source_files,target_files,batch_size=32,workers=2)
@@ -141,7 +141,7 @@ classifier = model.Classifier(configs.features_len,n_classes=n_classes)
 # instantiate AdaMatch algorithm and setup hyperparameters
 adamatch = model.Damatch(encoder, classifier)
 hparams = adamatch_hyperparams()
-epochs = 500 # my implementations uses early stopping
+epochs = 5 # my implementations uses early stopping
 
 
 
@@ -151,11 +151,11 @@ adamatch.train(source_dataloader_train_weak, source_dataloader_train_strong,
                epochs, hparams, model_save_dir+'/checkpoint.pt')
 
 # evaluate the model
-adamatch.plot_metrics()
+adamatch.plot_metrics(experiment_log_dir)
 
 # returns accuracy on the test set
 print(f"accuracy on test set = {adamatch.evaluate(target_dataloader_test)}")
 
 # returns a confusion matrix plot and a ROC curve plot (that also shows the AUROC)
-adamatch.plot_cm_roc(target_dataloader_test)
+adamatch.plot_cm_roc(target_dataloader_test,experiment_log_dir)
 
